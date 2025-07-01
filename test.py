@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 
-model = joblib.load("spam_classifier.pkl")
+model = joblib.load("spam_classifier_model.pkl")
 vectorizer = joblib.load("vectorizer.pkl")
 
 st.title("SMS Spam Classifier")
